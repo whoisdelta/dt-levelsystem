@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'whoisdelts.'
+author 'whoisdelta.'
 description 'lvl-system [discord.gg/mdstudios]'
 
 lua54 'yes'
