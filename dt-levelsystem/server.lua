@@ -47,6 +47,10 @@ end)
 
 exports('giveXp', giveXp);
 
+exports('getUserLevel', function(user_id)
+    return (userLevel[user_id]/25) > 0 and (userLevel[user_id]/25) or 0;
+end)
+
 AddEventHandler("vRP:playerSpawn", function(user_id, source,fs)
     if not fs then return end;
 
