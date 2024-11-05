@@ -26,6 +26,10 @@ RegisterCommand('givexp', function(source, args)
     local targetId = tonumber(args[1]);
     local xp = tonumber(args[2]) or 0;
 
+    if not vRP.isAdmin(user_id) then
+        return;
+    end
+
     if not xp or not targetId then
         TriggerClientEvent('chatMessage', source, 'syntax: /givexp <id> <xp>');
         return;
