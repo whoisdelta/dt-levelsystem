@@ -1,4 +1,4 @@
-## dt-levelSystem [discord.gg/mdstudios]
+## dt-levelSystem [discord.gg/dtstore]
 
 ## https://imgur.com/inGu9Bs
 
